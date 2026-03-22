@@ -2,6 +2,7 @@ package org.surojit.tool.weather;
 
 import dev.langchain4j.model.openai.OpenAiChatModel;
 import dev.langchain4j.service.AiServices;
+import org.surojit.Assistant;
 
 public class Test {
 

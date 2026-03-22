@@ -5,19 +5,19 @@ import dev.langchain4j.agent.tool.Tool;
 public class CalculatorTool {
 
     @Tool("Add two numbers")
-    public int add(int a, int b) {
+    public double add(double a, double b) {
         System.out.println("addition called");
         return a + b;
     }
 
     @Tool("Multiply two numbers")
-    public int multiply(int a, int b) {
+    public double multiply(double a, double b) {
         System.out.println("multiplication called");
         return a * b;
     }
 
     @Tool("Subtract two numbers")
-    public int subtract(int a, int b) {
+    public double subtract(double a, double b) {
         System.out.println("subtraction called");
          return a - b;
     }

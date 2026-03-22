@@ -15,4 +15,10 @@ public class WeatherTool {
         System.out.println("getTime called");
         return java.time.LocalTime.now().toString();
     }
+
+    @Tool("Get current date")
+    public String getDate() {
+        System.out.println("getDate called");
+        return java.time.LocalDate.now().toString();
+    }
 }
