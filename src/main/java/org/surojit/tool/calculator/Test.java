@@ -2,8 +2,7 @@ package org.surojit.tool.calculator;
 
 import dev.langchain4j.model.openai.OpenAiChatModel;
 import dev.langchain4j.service.AiServices;
-import org.surojit.tool.calculator.Assistant;
-import org.surojit.tool.calculator.CalculatorTool;
+import org.surojit.Assistant;
 
 public class Test {
 
